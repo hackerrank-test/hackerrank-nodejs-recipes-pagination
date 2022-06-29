@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="12.0220" tests="6" failures="6">
+  <testsuite name="Root Suite" timestamp="2022-03-04T14:35:45" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="express_recipes_pagination" timestamp="2022-03-04T14:35:45" tests="6" file="/projects/challenge/test/index.spec.js" time="12.0220" failures="6">
+    <testcase name="express_recipes_pagination Should return 200 for /recipes with default pagination" time="2.0020" classname="Should return 200 for /recipes with default pagination">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/projects/challenge/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/projects/challenge/test/index.spec.js)]]></failure>
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when only page is set in query" time="2.0020" classname="Should respond with correct data when only page is set in query">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/projects/challenge/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/projects/challenge/test/index.spec.js)]]></failure>
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when only limit is set in query" time="2.0010" classname="Should respond with correct data when only limit is set in query">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/projects/challenge/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/projects/challenge/test/index.spec.js)]]></failure>
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when both limit and page are set in query - 1" time="2.0160" classname="Should respond with correct data when both limit and page are set in query - 1">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/projects/challenge/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/projects/challenge/test/index.spec.js)]]></failure>
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when both limit and page are set in query - 2" time="2.0010" classname="Should respond with correct data when both limit and page are set in query - 2">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/projects/challenge/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/projects/challenge/test/index.spec.js)]]></failure>
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when both limit and page are out of bounds" time="2.0000" classname="Should respond with correct data when both limit and page are out of bounds">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/projects/challenge/test/index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/projects/challenge/test/index.spec.js)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
